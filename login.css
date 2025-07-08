@@ -1,4 +1,3 @@
-/*Estilo geral*/
 * {
   margin: 0;
   padding: 0;
@@ -21,10 +20,9 @@ body {
 }
 main{
   flex: 1;
-}
-nav{
-  background-color: rgb(255, 255, 255);
-  
+  display: flex;
+  justify-content: center; /* Horizontal */
+  align-items: center;     /* Vertical */
 }
 h1{
    font-family: 'Times New Roman', Times, serif;
@@ -32,10 +30,13 @@ h1{
    color: rgb(0, 0, 0);
    font-weight: bolder;
 }
+p{
+  margin-top: 20px;
+}
 .signup-screen{
-  max-width: 500px; /* Define um tamanho máximo */
-  width: 90%; /* Evita que fique muito grande em telas menores */
-  margin: auto; /* Centraliza no meio horizontal */
+  max-width: 500px; 
+  width: 90%; 
+  margin: auto;
   border: 1px solid rgba(83, 83, 83, 0.548);
   border-radius: 20px;
   padding: 30px;
@@ -44,18 +45,14 @@ h1{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  justify-content: center;
+}
+.container{
+   justify-content: center;
 }
 .signup-header img {
   width: 80px;
 }
-
 .signup-form {
   width: 100%;
-}
-#gg{
-  border: 1px solid rgba(0, 0, 0, 0.24);
-}
-#gg:hover{
-    background-color: aliceblue;
 }

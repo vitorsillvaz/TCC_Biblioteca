@@ -12,17 +12,17 @@
 </head>
 <body>
 
+  <!--barra de navegação-->
   <nav class="navbar navbar-light" style="background-color: black;">
     <a href="login.html" class="navbar-brand">
-    <img class="log" src="logo.png" width="250px" height="50px" /></a>
+    <img class="log" src="logo.png" width="250px" height="50px" /><button type="button" class="btn btn-outline-light">Login</button></a>
     <div class="form-inline">
-      <button type="button" class="btn btn-outline-light">Login</button>
         <a href="compra.html" id="carr"><img width="48" height="50" src="https://img.icons8.com/material-sharp/48/FFFFFF/shopping-cart.png" alt="carrinho" /></a>
     </div>
   </nav>
+   <!--fim barra de navegação-->
 
   <main class="principal">
-
     <ul class="nav justify-content-center" id="nav">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
@@ -54,21 +54,6 @@
         <a class="nav-link" href="#">Mais Vendidos</a>
       </li>
     </ul>
-
-    <!--Pesquisa-->
-    <div class="row pesq">
-      
-      <form>
-        <h1>Pesquise por título</h1>
-    <div class="form-group">
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
-    <button type="submit" class="btn btn-primary">Enviar</button> 
-    </div>
-
-    </form> 
-    </div>
-    
-    <!--Pesquisa-->
 
     <!--Carrossel-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
@@ -103,8 +88,18 @@
     </div>
     <!--Fim Carrossel-->
 
+    <!--Pesquisa-->
+    <div class="row pesq"> 
+     <form>
+       <h1>Pesquise por título</h1>
+      <div class="form-group">
+       <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o título">
+       <button type="submit" class="btn">Enviar</button> 
+      </div>
+     </form> 
+    </div>
+    <!--Pesquisa-->
     <hr>
-
     <!--ficção-->
     <h1 id="Ficção">FICÇÃO</h1><br>
     <div class="row">
@@ -484,9 +479,6 @@
     </div>
     <!--fim biografias-->
     <hr>
-
-    
-
   </main>
 
   <br><br>
