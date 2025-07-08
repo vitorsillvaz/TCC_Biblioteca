@@ -42,7 +42,7 @@ main{
   visibility: visible;
 }
 .dropdown-menu {
-  display: none;
+  display: block;
   position: absolute;
   z-index: 1000;
 }
@@ -120,12 +120,22 @@ footer p {
     width: 150px;
     height: 50px;
   }
-  .form-control{
-    display: none;
+  .pesq{
+    align-content: center;
+    width: 100%;
+  }
+  .pesq form{
+    width: 80%;
+  }
+  #pesq{
+    width: 80%;
+  }
+  .h1p{
+    font-size: 30px;
   }
   .nav2{
     display: flex;
-    }
+  }
   #nav{
     display: none;
   }
