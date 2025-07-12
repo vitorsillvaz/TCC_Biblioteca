@@ -11,30 +11,45 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 <body>
+  <!--recado-->
+  <div class="recado">
+     <p> Frete grátis na primeira compra </p>
+  </div>
+  <!--fim recado-->
 
   <!--barra de navegação-->
-  <nav class="navbar navbar-light" style="background-color: black;">
-    <a href="login.html" class="navbar-brand">
-    <img class="log" src="logo.png" width="250px" height="50px" /><button type="button" class="btn btn-outline-light">Login</button></a>
+  <nav class="navbar navbar-light">
     <div class="form-inline">
-        <a href="compra.html" id="carr"><img width="48" height="50" src="https://img.icons8.com/material-sharp/48/FFFFFF/shopping-cart.png" alt="carrinho" /></a>
+       <a href="login.html" class="navbar-brand">
+       <img class="log" src="logo.png" width="150px" height="65px"/></a>
+      <form>
+       <div class="form-group">
+        <input type="text" class="form-control" id="pesq" aria-describedby="emailHelp" placeholder="Pesquise por título">
+        <button type="submit" class="btn btn-pesq">Buscar</button> 
+       </div>
+      </form> 
+    </div>
+    <div class="form-inline">
+        <a href="login.html"><i class="fa-solid fa-user" style="font-size: 15px;"><button type="button" class="btn-login">Login</button></i></a>
+        
+        <a href="compra.html" id="carr"><i class="fa-solid fa-cart-shopping" style="font-size: 35px;"></i></a>
     </div>
   </nav>
-   <!--fim barra de navegação-->
+  <!--fim barra de navegação-->
 
   <main class="principal">
     <ul class="nav justify-content-center" id="nav">
       <li class="nav-item">
-        <a class="nav-link" href="#Literatura">Literatura Brasileira</a>
+        <a class="nav-link" href="#Ofertas">Ofertas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#Biografias">Biografias</a>
+        <a class="nav-link active" href="#Combos">Combos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Ficção">Ficção</a>
+        <a class="nav-link" href="#Whey">Whey protein</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">História</a>
+        <a class="nav-link" href="#">Creatina</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Novidades</a>
@@ -54,15 +69,15 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="https://lasca.studio/photos/mestres-da-literatura/3-Castro-Alves-min.jpg"
+          <img class="d-block w-100" src="https://www.mktesportivo.com/wp-content/uploads/2024/09/suplementos.jpg"
             alt="Primeiro Slide" height="500px">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="https://lasca.studio/photos/mestres-da-literatura/2-Machado-de-Assis-min.jpg"
+          <img class="d-block w-100" src="https://media.licdn.com/dms/image/v2/D4D12AQF5Lyh0PB-v_w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1719866600116?e=2147483647&v=beta&t=bkIJGJRcK0GzxO4HVr8wBlK3Be3m9jFEkCz2SxLpJD8"
             alt="Segundo Slide" height="500px">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="https://lasca.studio/photos/mestres-da-literatura/6-Ariano-Suassuna-min.jpg"
+          <img class="d-block w-100" src="https://marjan.com.br/wp-content/uploads/2023/05/como-escolher-suplemento-5-orientacoes-para-nao-errar-1024x458.jpg"
             alt="Terceiro Slide" height="500px">
         </div>
       </div>
@@ -77,17 +92,6 @@
     </div>
     <!--Fim Carrossel-->
 
-    <!--Pesquisa-->
-    <div class="row pesq"> 
-     <form>
-       <h1 class="h1p">Pesquise por título</h1>
-      <div class="form-group">
-       <input type="text" class="form-control" id="pesq" aria-describedby="emailHelp" placeholder="Digite o título">
-       <button type="submit" class="btn">Buscar</button> 
-      </div>
-     </form> 
-    </div>
-    <!--Pesquisa-->
     <hr>
     <!--ficção-->
     <h1 id="Ficção">FICÇÃO</h1><br>

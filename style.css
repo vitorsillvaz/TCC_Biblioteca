@@ -24,18 +24,36 @@ body {
   margin: 0;
   flex-direction: column;
 }
+.recado p{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 main{
   flex: 1;
 }
-.pesq form{
-  width: 50%;
-  width: 0 auto;
+#pesq{
+  width: 500px;
+  border-radius: 5px;
 }
-.form-group{
-  display: flex;
+.btn-pesq{
+  border-radius: 5px;
+  background-color: #000000;
+  color: white;
 }
-.pesq{
-  justify-content: center;
+.btn-login{
+  border: none;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 0px;
+  font-style: normal;
+}
+.btn-pesq:hover{
+  background-color: #036e08;
+} 
+.btn-login:hover , i:hover{
+  color: #036e08;
 }
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
@@ -47,7 +65,7 @@ main{
   z-index: 1000;
 }
 li:hover{
-   background-color: #00000050;
+   background-color: #3837371a;
 }
 a {
   text-decoration: none;
@@ -56,15 +74,13 @@ a {
 }
 #carr{
   margin-left: 20px;
+  color: #000000;
 }
 a:hover{
   color: #000000;
 }
 #nav{
-  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.219);
-}
-.nav2{
-  display: none;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.096);
 }
 #btn-comprar {
   text-decoration: none;
@@ -88,7 +104,7 @@ p {
   font-size: 20px;
   font-weight: bolder;
 }
-#btn-comprar:hover,.card-img-top:hover, #carr:hover{
+#btn-comprar:hover,.card-img-top:hover{
   background-color: #036e08;
   border: 1px solid #00a808;
   color: #ffffff;
@@ -119,6 +135,7 @@ footer p {
   .log{
     width: 150px;
     height: 50px;
+    text-align: center;
   }
   .pesq{
     align-content: center;
@@ -126,6 +143,9 @@ footer p {
   }
   .pesq form{
     width: 80%;
+  }
+  .d-block{
+    height: 150px;
   }
   #pesq{
     width: 80%;
